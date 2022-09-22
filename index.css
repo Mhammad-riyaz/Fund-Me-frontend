@@ -1,0 +1,96 @@
+#form {
+    text-align: center;
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 10px grey;
+    border-top: 5px solid rgb(44, 136, 36);
+    height: 350px;
+    width: 250px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 80px;
+    border-radius: 3px;
+}
+button {
+    margin: 8px;
+    padding: 8px;
+}
+
+#connect,
+#fund,
+#balance,
+#withdraw {
+    border: 0;
+    border-radius: 4px;
+    /* width: 80%; */
+    font-size: large;
+    font-weight: bold;
+}
+#connect {
+    width: 80%;
+    color: white;
+    /* background-color: #2c3035; */
+    background-color: #10b981;
+}
+
+#input {
+    width: 40%;
+    padding: 8px;
+    border: 1px solid grey;
+    font-size: large;
+    border: 0;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+#balance,
+#label {
+    position: relative;
+    right: 35px;
+}
+#withdraw-status {
+    position: relative;
+    top: 10px;
+}
+#label,
+#withdraw-status {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+/*  to hide the arrows in the input number type */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+button:hover {
+    cursor: pointer;
+}
+
+#fund,
+#balance,
+#withdraw {
+    background-color: white;
+    color: #2c3035;
+    border: 1px solid grey;
+}
+#fund:hover,
+#balance:hover,
+#withdraw:hover {
+    color: white;
+    background-color: #10b981;
+    border: 0;
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2c3035;
+    font-family: "Lucida Sans", "Lucida Sans Regular",
+        "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+    font-size: large;
+    font-weight: lighter;
+}
